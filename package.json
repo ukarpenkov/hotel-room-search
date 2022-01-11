@@ -1,0 +1,19 @@
+{
+  "name": "hotel-room-search",
+  "version": "1.0.0",
+  "description": "hotel room search site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukarpenkov/hotel-room-search.git"
+  },
+  "author": "Iurii Karpenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukarpenkov/hotel-room-search/issues"
+  },
+  "homepage": "https://github.com/ukarpenkov/hotel-room-search#readme"
+}
