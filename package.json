@@ -4,7 +4,8 @@
   "description": "hotel room search site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/ukarpenkov/hotel-room-search/issues"
   },
-  "homepage": "https://github.com/ukarpenkov/hotel-room-search#readme"
+  "homepage": "https://github.com/ukarpenkov/hotel-room-search#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.6",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
