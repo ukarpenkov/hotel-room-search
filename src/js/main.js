@@ -1,2 +1,2 @@
 import '../scss/main.scss'
-import '../style.css'
+import '../index.html'
