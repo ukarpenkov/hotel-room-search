@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ukarpenkov/hotel-room-search#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.5.1",
     "html-loader": "^3.1.0",
